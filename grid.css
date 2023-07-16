@@ -6,7 +6,8 @@
     }
 
     nav,
-    .tems-container
+    .tems-container,
+    .feature-container
     {
         flex-direction: column;
     }
@@ -26,6 +27,16 @@
         padding: 0px 20px;
 
     }
+
+    .feat-imgs{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .feauter-box{
+        flex-direction: column;
+    }
+
  }
 
 
@@ -37,13 +48,20 @@
         padding: 15px;
     }
 
-    .tems-container
+    .tems-container,
+    .feature-container
     {
         flex-direction: column;
     }
 
     .tems-content{
         margin-top: 50px;
+    }
+
+    .feat-imgs{
+        width: 100%;
+        margin-top: 2rem;
+
     }
 
 }
