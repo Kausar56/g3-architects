@@ -8,6 +8,7 @@
     nav,
     .tems-container,
     .feature-container
+    
     {
         flex-direction: column;
     }
@@ -20,6 +21,10 @@
 
     .tems-img{
      grid-template-columns: 1fr;
+    }
+    .facts-container{
+     grid-template-columns: 1fr;
+     row-gap: 1rem;
     }
 
     .tems-content{
@@ -37,6 +42,27 @@
         flex-direction: column;
     }
 
+    .sponsor-container{
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    .sponsor p{
+        letter-spacing: 1px;
+      padding: 1rem;
+    }
+
+    .facts-content{
+        padding: 0rem 1rem;
+    }
+
+  .fatcs-box{
+      
+    }
+
+    .footer-container{
+        text-align: center;
+    }
  }
 
 
@@ -62,6 +88,30 @@
         width: 100%;
         margin-top: 2rem;
 
+
     }
 
+    .sponsor-img img{
+        width: 100%;
+    }
+    
+    .sponsor-container{
+        padding: 0rem 2rem;
+    }
+       .facts-content{
+        padding: 0rem 1rem;
+    }
+
+
+    .fatcs-box{
+        padding: 1rem;
+    }
+
+    .nav-title{
+        font-size:2rem ;
+    }
+
+    .footer-container{
+        text-align: center;
+    }
 }
